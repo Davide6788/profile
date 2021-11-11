@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Open+Sans:wght@500&display=swap');
+
+body {
+  background-color: #C37B89;
+  font-family: 'Montserrat', sans-serif;
+  color: #2F2F4C;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+h1 {
+  font-size: 32px;
+}
+
+h2 {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 24px;
+}
+
+a {
+  color: #7EBDC2;
+  text-decoration: none;
+}
+
+a:hover {
+  color: white;
+}
+
+li {
+  color: #121212;
+}
+
+.container {
+  width: 750px;
+  margin: 0 auto;
+}
+
+.card {
+  margin-top: 16px;
+  margin-bottom: 16px;
+  background: #EFE6DD;
+  padding: 30px;
+  padding-left: 180px;
+  padding-right: 180px;
+  border-radius: 4px;
+  box-shadow: 0 10px 30px rgba(0,0,0,.1);
+}
+
+.text-center {
+  text-align: center;
+}
+
+.profile-pic {
+  border-radius: 50%;
+}
+
+.list-inline > li {
+  display: inline-block;
+  padding: 0px 20px;
+  font-size: 32px;
+}
+
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+}
+
+#discover-my-code-button {
+  color: #EFE6DD;
+  background: #7EBDC2;
+  border-radius: 4px;
+  box-shadow: 0 10px 30px rgba(0,0,0,.1);
+  padding: 8px;
+}
+
+#discover-my-code-button:hover {
+  color: #7EBDC2;
+  background: #EFE6DD;
+  box-shadow: none;
+}
+
+@media (max-width: 960px) {
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  .container {
+    width: 400px;
+  }
+}
